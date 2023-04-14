@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 4.8rem 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+h2{
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem; 
+}
+
+button {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #FFFFFF; 
+}
