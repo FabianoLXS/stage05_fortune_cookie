@@ -10,17 +10,18 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dancing+Script&family=Montserrat:wght@700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
 
   <title>Fortune Cookie</title>
 </head>
 <body>
   <main>
-  <div id="screen1">
+  <div id="screen1" class="hide">
     <h1>Qual é a sua sorte de hoje?</h1>
     <h2>Abra o biscoito e descubra!</h2>
-    <img src="./Assets/fortune-cookie.png" alt="Biscoito da sorte com papel pendurado">
+    <img id="img2" src="./Assets/fortune-cookie.png" alt="Biscoito da sorte com papel pendurado">
   </div>
-  <div2 id="screen2" class="hide">
+  <div2 id="screen2" >
     <h1>Aqui está a sua sorte de hoje:</h1>
     <p>Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
     <img src="./Assets/opened-cookie.png" alt="Biscoito da sorte aberto com a mensagem">

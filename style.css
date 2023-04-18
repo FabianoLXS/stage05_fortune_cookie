@@ -45,6 +45,15 @@ h2 {
 
 p {
   font-family: "Dancing Script";
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+  padding: 1rem;
+
+  max-width: 29.3rem;
 }
 
 button {
@@ -60,9 +69,17 @@ button {
   border: none;
   border-radius: 0.4rem;
 
-  display: grid;
+  max-width: 17.4rem;
 }
 
-/* .hide {
+div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.7rem;
+}
+
+.hide {
   display: none;
-} */
+}
