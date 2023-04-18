@@ -17,18 +17,13 @@ const fortuneSentence = [
 ]
 
 function randGen() {
-  return Math.round(Math.random() * 10)
+  return Number(Math.round(Math.random() * 10))
 }
-
-
-
 
 function openFortune() {
   const fortune = document.getElementById("myFortune")
   element.innerHTML = fortuneSentence[randGen()]
-  
-  
-  
+
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
 }
