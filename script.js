@@ -22,8 +22,16 @@ function randGen() {
 
 function openFortune() {
   const fortune = document.getElementById("myFortune")
-  element.innerHTML = fortuneSentence[randGen()]
+  Stingfortune.innerHTML = fortuneSentence[randGen()]
+}
 
+function tryNewFunction() {
   screen1.classList.toggle("hide")
   screen2.classList.toggle("hide")
 }
+
+function openTag() {
+  tryNewFunction()
+  
+}
+
