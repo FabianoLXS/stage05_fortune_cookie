@@ -22,7 +22,7 @@ function randGen() {
 
 function openFortune() {
   const fortune = document.getElementById("myFortune")
-  Stingfortune.innerHTML = fortuneSentence[randGen()]
+  fortune.innerHTML = fortuneSentence[randGen()]
 }
 
 function tryNewFunction() {
@@ -32,6 +32,5 @@ function tryNewFunction() {
 
 function openTag() {
   tryNewFunction()
-  
+  openFortune()
 }
-
