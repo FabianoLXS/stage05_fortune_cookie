@@ -23,6 +23,7 @@ function randGen() {
 function openFortune() {
   const fortune = document.getElementById("myFortune")
   fortune.innerHTML = fortuneSentence[randGen()]
+  tryNewFunction()
 }
 
 function tryNewFunction() {
@@ -30,7 +31,3 @@ function tryNewFunction() {
   screen2.classList.toggle("hide")
 }
 
-function openTag() {
-  tryNewFunction()
-  openFortune()
-}
